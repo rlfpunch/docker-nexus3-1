@@ -1,7 +1,7 @@
 FROM       openjdk:8-jre-alpine
 MAINTAINER FengYu <yu.feng@shifudao.com>
 
-ENV NEXUS_VERSION 3.1.0-04
+ENV NEXUS_VERSION 3.13.0-01
 
 ENV SONATYPE_DIR /opt/sonatype
 ENV NEXUS_HOME ${SONATYPE_DIR}/nexus
